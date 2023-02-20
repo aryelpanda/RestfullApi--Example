@@ -1,0 +1,28 @@
+REESTful API 
+
+https://www.youtube.com/watch?v=-MTSQjw5DrM
+i follow this dude example of the maiking of the api
+its made in node.js JavaScript
+
+
+1: write in terminal  in a new directory: npm init -y ( creates a json file we can use for context)
+2: we install express type in termainl : npm install express (adds express to our dependencies)
+3: we need a file to write our code so we create a index.js file (just create new file )
+
+4: we declare a varaivle for "app" (represents the actual api we are building)
+
+5:app.listen() = fiers the app to life , that tells him to listen on a specific port 
+                as a second argument as callback to tell us when the api is ready 
+
+6: we can run the api by writeing in the terminal : node. (it should give us the callback in the terminal)
+
+7:enter insomina o postman : paste the http://localhost:8080 and we can see the response in a nice developer matter
+
+8 : and add an endpoint ; line 10
+
+9: restart the terminal : node index.js
+
+
+10: now we add a post request endpoit:
+
+11:  add middle ware  : all the reqeusts coming are trasnformed to jason  
